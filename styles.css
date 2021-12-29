@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 60%;
+}
+
+.middle-box {
+  border-radius: 0.625em;
+  box-shadow: 0 2px 10px 0 hsl(224, 23%, 55%);
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 650px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.top-image img {
+  width: 100%;
+  margin-bottom: 15px;
+  border-top-left-radius: 0.625em;
+  border-top-right-radius: 0.625em;
+}
+
+.top-heading {
+  text-align: center;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 900;
+}
+
+.paragraph {
+  color: hsl(224, 23%, 55%);
+  font-weight: lighter;
+  padding-bottom: 0.313em;
+  font-size: 1rem;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.money-plan {
+  list-style: none;
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 0.625em;
+  width: 300px;
+  margin-left: 50px;
+}
+
+.money-plan img {
+  margin: 20px -20px;
+}
+
+.img-actual {
+  line-height: 0.5;
+  margin: 13px 0 -30px 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.cash-area {
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  margin: 0;
+  margin: 20px;
+  font-size: 1rem;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+}
+
+.change a {
+  color: hsl(245, 75%, 52%);
+}
+
+.change:hover,
+.change:focus {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn1 {
+  border: none;
+  width: 300px;
+  outline: none;
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1rem;
+  margin: 10px 50px 0 50px;
+  background-color: hsl(245, 75%, 52%);
+  padding: 0.625em;
+  border: 2px solid hsl(245, 75%, 52%);
+  border-radius: 0.625em;
+  box-shadow: 0px 5px 10px 10px hsl(225, 100%, 94%);
+  color: white;
+}
+
+.btn1 a {
+  color: white;
+}
+
+.btn1:hover,
+.btn1:focus {
+  opacity: 0.7;
+}
+
+.btn2 {
+  width: 300px;
+  margin: 20px 50px 0 50px;
+  border: none;
+  background: none;
+  font-family: "Red Hat Display", sans-serif;
+  color: hsl(223, 47%, 23%);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn2 a {
+  color: hsl(223, 47%, 23%);
+}
+
+.btn2 a:hover,
+.btn2 a:focus {
+  opacity: 0.7;
+}
